@@ -2,7 +2,7 @@
 from PIL import Image
   
 def convertImage():
-    img = Image.open("12.png")
+    img = Image.open("logo.png")
     img = img.convert("RGBA")
   
     datas = img.getdata()
